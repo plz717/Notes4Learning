@@ -86,3 +86,7 @@ $$\min E = \sum\limits_{i,j} \| x_i^* - T_{i,j} x_j^* \|_2^2 .$$
 -   地图描述/点云地图优化/语义地图
 -   长时间/大规模/自动化slam
 -   等等……
+
+###资料
+相机模型（内参数，外参数）:http://www.cnblogs.com/wangguchangqing/p/8126333.html
+凸透镜成像及小孔成像:http://blog.csdn.net/lsh_2013/article/details/47615309
