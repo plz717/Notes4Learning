@@ -3,7 +3,13 @@
 链表的特点是：寻址困难，插入和删除容易。
 
 那么我们能不能综合两者的特性，寻址容易，插入删除也容易的数据结构？
-                                                                                         -----哈希表（(Hash table）
+                                                                                         -----哈希表（Hash table）
+
+#Hash
+将结点按其关键字的地址存储到HashMap中的过程称为散列(hashing)
+> 由于不同对象的地址一般不同,因此原本多个不同地址的对象,经过hashing, 可以具有在散列表中相同的index.
+
+实现:http://www.cnblogs.com/lizhanwu/p/4303410.html
 
 #HashMap
 HashMap是一个用于存储Key-Value键值对的集合，每一个键值对也叫做Entry。这些个键值对（Entry）分散存储在一个数组当中.
